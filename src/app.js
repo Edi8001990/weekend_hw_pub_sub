@@ -8,6 +8,7 @@ const countriesListContainer = document.querySelector('div.countries');
 const countriesListView = new CountriesListView(countriesListContainer);
 countriesListView.bindEvents();
 
+
 const countries = new Countries('https://restcountries.eu/rest/v2/all');
 countries.getData();
 
